@@ -33,7 +33,16 @@ A curious Machine Learning Engineer!
 | **Machine Learning / Deep Learning Frameworks** | ![Jupyter Notebook](https://img.shields.io/badge/jupyter%20notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Seaborn](https://img.shields.io/badge/seaborn-00BFFF?style=for-the-badge&logo=seaborn&logoColor=white) |
 
 
+
 ## 📊 GitHub Stats:
+| ![Shining0611armor's Profile Details](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical) | ![Shining0611armor's Repos per Language](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&layout=compact&theme=radical) |
+|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| ![Shining0611armor's Most Commit Language](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&theme=radical) | ![Shining0611armor's Stats](https://github-readme-streak-stats.herokuapp.com/?user=shining0611armor&theme=radical) |
+| ![Shining0611armor's Productive Time](https://github-readme-stats.vercel.app/api/wakatime?username=shining0611armor&theme=radical) | ![Shining0611armor's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shining0611armor&theme=radical) |
+| ![Shining0611armor's Trophies](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical) | ![Shining0611armor's Commits](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical) |
+
+
+
 ![Shining0611armor's Profile Details](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical)
 ![Shining0611armor's Repos per Language](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&layout=compact&theme=radical)
 ![Shining0611armor's Most Commit Language](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&theme=radical)
