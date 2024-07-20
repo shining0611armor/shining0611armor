@@ -15,9 +15,9 @@ Aspiring Software Developer with a Passion for Python
 ---
 
 ## Connect with Me
-[![Twitter](https://img.shields.io/badge/chatri_brahim-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/chatri_brahim)
-[![LinkedIn](https://img.shields.io/badge/brahim--chatri-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brahim-chatri-23a397280/)
-[![Instagram](https://img.shields.io/badge/brahim_chatri-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/brahim_chatri/)
+[![Twitter](https://img.shields.io/badge/shining0611armor-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/shining0611armor)
+[![LinkedIn](https://img.shields.io/badge/shining0611armor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shining0611armor/)
+[![Instagram](https://img.shields.io/badge/shining0611armor-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shining0611armor/)
 
 ---
 
@@ -33,26 +33,26 @@ Aspiring Software Developer with a Passion for Python
 
 ## GitHub Stats 📊
 
-![Mehran's GitHub stats](https://github-readme-stats.vercel.app/api?username=MehranTamjidi&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MehranTamjidi&layout=compact&theme=radical)
+![Mehran's GitHub stats](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&layout=compact&theme=radical)
 
 ---
 
 ## GitHub Activity Graph
 
-[![Mehran's github activity graph](https://activity-graph.herokuapp.com/graph?username=MehranTamjidi&bg_color=000000&color=00ff00&line=00ff00&point=ffffff&hide_border=true)](https://github.com/MehranTamjidi/github-readme-activity-graph)
+[![Mehran's github activity graph](https://activity-graph.herokuapp.com/graph?username=shining0611armor&bg_color=000000&color=00ff00&line=00ff00&point=ffffff&hide_border=true)](https://github.com/shining0611armor/github-readme-activity-graph)
 
 ---
 
 ## GitHub Trophies 🏆
 
-![trophy](https://github-profile-trophy.vercel.app/?username=MehranTamjidi&theme=radical)
+![trophy](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical)
 
 ---
 
 ## Snake Game 🐍
 
-![snake gif](https://github.com/MehranTamjidi/MehranTamjidi/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/shining0611armor/shining0611armor/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
