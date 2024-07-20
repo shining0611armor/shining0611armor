@@ -46,18 +46,21 @@ A curious Machine Learning Engineer!
 
 ## 🔥 Contributions Graph
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=shining0611armor&theme=react-dark)
 
+![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=shining0611armor&theme=react-dark)
 
 
 ## 📈 Commit Frequency
 
-![Commit Frequency](https://github-readme-stats.vercel.app/api/wakatime?username=shining0611armor&theme=radical)
+![Commit Frequency](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical)
+
 
 
 ## GitHub Activity Graph
 
-[![Mehran's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=shining0611armor&bg_color=000000&color=00ff00&line=00ff00&point=ffffff&hide_border=true)](https://github.com/shining0611armor/github-readme-activity-graph)
+![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=shining0611armor&theme=react-dark)
+
+
 
 ---
 
