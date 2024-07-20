@@ -1,6 +1,6 @@
 # Hi 👋 I'm Mehran
 
-Aspiring Software Developer with a Passion for Python
+A curious Machine Learning Engineer!
 
 👨‍💻 I’m currently working specifically on 3D Computer Vision and Machine Learning.
 
@@ -50,10 +50,5 @@ Aspiring Software Developer with a Passion for Python
 
 ---
 
-## Snake Game 🐍
-
-![snake gif](https://github.com/shining0611armor/shining0611armor/blob/output/github-contribution-grid-snake.svg)
-
----
 
 Feel free to ask me about my fields of interest whenever you need!
