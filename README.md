@@ -59,7 +59,7 @@ A curious Machine Learning Engineer!
 ## GitHub Activity Graph
 
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shining0611armor&theme=dracula)](https://github.com/shining0611armor/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shining0611armor&theme=github-dark&radius=13&order=55" height="365" alt="activity-graph graph)](https://github.com/shining0611armor/github-readme-activity-graph)
 
 
 ---
