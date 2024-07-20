@@ -40,7 +40,7 @@ A curious Machine Learning Engineer!
 
 ## GitHub Activity Graph
 
-[![Mehran's github activity graph](https://activity-graph.herokuapp.com/graph?username=shining0611armor&bg_color=000000&color=00ff00&line=00ff00&point=ffffff&hide_border=true)](https://github.com/shining0611armor/github-readme-activity-graph)
+[![Mehran's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=shining0611armor&bg_color=000000&color=00ff00&line=00ff00&point=ffffff&hide_border=true)](https://github.com/shining0611armor/github-readme-activity-graph)
 
 ---
 
@@ -49,6 +49,5 @@ A curious Machine Learning Engineer!
 ![trophy](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical)
 
 ---
-
 
 Feel free to ask me about my fields of interest whenever you need!
