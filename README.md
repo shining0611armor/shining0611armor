@@ -58,8 +58,8 @@ A curious Machine Learning Engineer!
 
 ## GitHub Activity Graph
 
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=shining0611armor&theme=react-dark)
 
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shining0611armor&theme=github-compact)](https://github.com/shining0611armor/github-readme-activity-graph)
 
 
 ---
