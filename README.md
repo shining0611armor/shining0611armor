@@ -38,15 +38,17 @@ A curious Machine Learning Engineer!
 
 | ![Shining0611armor's GitHub stats](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&layout=compact&theme=radical) |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shining0611armor&theme=radical) | ![Shining0611armor's Trophies](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical) |
+| ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shining0611armor&theme=radical) | ![My Productive Time](https://github-readme-stats.vercel.app/api/wakatime?username=shining0611armor&theme=radical) |
+
+
+
+
 
 ## 🔥 Contributions Graph
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=shining0611armor&theme=react-dark)
 
-## 🏆 Achievements
 
-![Shining0611armor's GitHub Trophies](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical)
 
 ## 📈 Commit Frequency
 
