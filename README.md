@@ -36,11 +36,24 @@ A curious Machine Learning Engineer!
 
 ## 📊 GitHub Stats:
 
-| ![Shining0611armor's GitHub stats](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shining0611armor&layout=compact&theme=radical) |
-|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shining0611armor&theme=radical) | ![My Productive Time](https://github-readme-stats.vercel.app/api/wakatime?username=shining0611armor&theme=radical) |
-
-
+<table align="center">
+  <tr>
+    <td colspan="2" align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shining0611armor&theme=nord_dark" alt="shining0611armor's Profile Details" width="700" height="150"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shining0611armor&theme=nord_dark" alt="shining0611armor's Repos per Language" width="300" height="150"></td>
+    <td align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shining0611armor&theme=nord_dark" alt="shining0611armor's Most Commit Language" width="300" height="150"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shining0611armor&theme=nord_dark" alt="shining0611armor's Stats" width="300" height="150"></td>
+    <td align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shining0611armor&theme=nord_dark" alt="shining0611armor's Productive Time" width="300" height="150"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mjahmadee&theme=radical" alt="shining0611armor's GitHub Streak" width="600" height="150"><br>
+    </td>
+  </tr>
+</table>
 
 
 
