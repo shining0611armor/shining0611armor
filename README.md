@@ -1,6 +1,6 @@
 # Hi 👋 I'm Mehran
 
-A curious Machine Learning Engineer!
+A curious Digital Electronic and Machine Learning Engineer!
 
 👨‍💻 I’m currently working specifically on 3D Computer Vision and Machine Learning.
 
