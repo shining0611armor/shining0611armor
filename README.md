@@ -50,7 +50,7 @@ A curious Machine Learning Engineer!
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mjahmadee&theme=radical" alt="shining0611armor's GitHub Streak" width="600" height="150"><br>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=shining0611armor&theme=radical" alt="shining0611armor's GitHub Streak" width="600" height="150"><br>
     </td>
   </tr>
 </table>
