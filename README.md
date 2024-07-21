@@ -57,7 +57,7 @@ A curious Machine Learning Engineer!
 
 
 
-## 🔥 Contributions Graph
+## 🔥 My lovely snake!
 
 
 <p align="center">
