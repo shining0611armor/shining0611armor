@@ -47,8 +47,9 @@ A curious Machine Learning Engineer!
 ## 🔥 Contributions Graph
 
 
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=shining0611armor&theme=react-dark)
-
+<p align="center">
+ <img width="1000" src="./assets/github-snake.svg" alt="snake"/>
+</p>
 
 ## 📈 Commit Frequency
 
