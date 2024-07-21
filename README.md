@@ -64,11 +64,6 @@ A curious Machine Learning Engineer!
  <img width="1000" src="./assets/github-snake.svg" alt="snake"/>
 </p>
 
-## 📈 Commit Frequency
-
-![Commit Frequency](https://github-readme-stats.vercel.app/api?username=shining0611armor&show_icons=true&theme=radical)
-
-
 
 ## GitHub Activity Graph
 
