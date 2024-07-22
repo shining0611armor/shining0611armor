@@ -11,7 +11,7 @@ A curious Digital Electronic and Machine Learning Engineer!
 📫 How to reach me: mehrant.0611@gmail.com
 
 ⚡ Fun Fact: I'm constantly exploring new technologies and improving my coding skills!
-
+ 
 ---
  
 ## Connect with Me
