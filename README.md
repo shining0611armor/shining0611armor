@@ -88,7 +88,7 @@ A curious Digital Electronic and Machine Learning Engineer!
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Spiral%20Calendar.png"  width="30" />  GitHub Activity Graph 
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shining0611armor&theme=github-dark)](https://github.com/shining0611armor/github-readme-activity-graph)
+
 
 
 <div style="width: 80%; margin-bottom: 40px;">
