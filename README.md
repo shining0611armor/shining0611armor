@@ -3,9 +3,8 @@
 ![Profile views](https://komarev.com/ghpvc/?username=shining0611armor&label=Profile+views&color=blue&style=flat&abbreviated=0)
 ![GitHub followers](https://img.shields.io/github/followers/shining0611armor?style=flat)
 ![GitHub User's stars](https://img.shields.io/github/stars/shining0611armor?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/shining0611armor/shining0611armor?style=flat)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shining0611armor&label=Profile%20views&color=0e75b6&style=flat" alt="shining0611armor" /> </p>
+
 
  
 
