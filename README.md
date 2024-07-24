@@ -4,9 +4,7 @@
 ![GitHub followers](https://img.shields.io/github/followers/shining0611armor?style=flat)
 ![GitHub User's stars](https://img.shields.io/github/stars/shining0611armor?style=flat)
 
-
-
-<span style="margin-right: 20px;"> </span><span style="margin-right: 20px;"> </span><span style="margin-right: 20px;"> </span>
+###
 
 
 # Hi 👋 I'm Mehran
