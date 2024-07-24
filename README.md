@@ -1,10 +1,15 @@
 
-
-![Profile views](https://komarev.com/ghpvc/?username=shining0611armor&label=Profile+views&color=blue&style=flat&abbreviated=0)
-![GitHub followers](https://img.shields.io/github/followers/shining0611armor?style=flat)
-![GitHub User's stars](https://img.shields.io/github/stars/shining0611armor?style=flat)
-
-###
+<div align="left">
+  <span style="margin-right: 10px;">
+    <img src="https://komarev.com/ghpvc/?username=shining0611armor&label=Profile+views&color=blue&style=flat&abbreviated=0" alt="Profile views"/>
+  </span>
+  <span style="margin-right: 10px;">
+    <img src="https://img.shields.io/github/followers/shining0611armor?style=flat" alt="GitHub followers"/>
+  </span>
+  <span style="margin-right: 10px;">
+    <img src="https://img.shields.io/github/stars/shining0611armor?style=flat" alt="GitHub User's stars"/>
+  </span>
+</div>
 
 
 # Hi 👋 I'm Mehran
