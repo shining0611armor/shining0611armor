@@ -104,7 +104,7 @@ A curious Digital Electronic and Machine Learning Engineer!
 	<picture>
 	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/<shining0611armor>/<shining0611armor>/output-3d-contrib/night.svg" />
 	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/<shining0611armor>/<shining0611armor>/output-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/<shining0611armor>/<shining0611armor>/output-3d-contrib/day.svg" />
+	  <img alt="shining0611armor contributions chart"    src="https://raw.githubusercontent.com/<shining0611armor>/<shining0611armor>/output-3d-contrib/day.svg" />
 	</picture>
 </p>
 
