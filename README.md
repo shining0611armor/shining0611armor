@@ -77,7 +77,9 @@ A curious Digital Electronic and Machine Learning Engineer!
 </table>
 
 
-
+<a href="https://github.com/walidbosso"> 
+ <img src="./profile-3d-contrib/profile-night-view.svg" alt="Contribution sts" width="%" /></br></br>
+  </a> 
 ## 🔥 My lovely snake!
 
 
