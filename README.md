@@ -91,11 +91,14 @@ A curious Digital Electronic and Machine Learning Engineer!
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shining0611armor&theme=github-dark)](https://github.com/shining0611armor/github-readme-activity-graph)
 
 
----
-
 <div style="width: 80%; margin-bottom: 40px;">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shining0611armor&radius=16&theme=tokyo-night&area=true&order=5&hide_title=true&bg_color=0D1117&color=9370db&line=8660d6&point=C3C3E5&area_color=D3BBDD&hide_border=true" style="width: 100%; height: auto;" alt="Contribution Graph" />
 </div>
+
+
+---
+
+
 
 ## GitHub Trophies 🏆
 
