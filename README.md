@@ -6,7 +6,7 @@
 
 
 
-<span style="margin-right: 20px;">First item</span><span style="margin-right: 20px;">Second item</span><span style="margin-right: 20px;">Third item</span>
+<span style="margin-right: 20px;"> </span><span style="margin-right: 20px;"> </span><span style="margin-right: 20px;"> </span>
 
 
 # Hi 👋 I'm Mehran
