@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/github/stars/shining0611armor?style=flat" alt="GitHub User's stars"/>
   </span>
     <span style="margin-right: 20px;">
-    <img src="https://img.shields.io/github/stars/shining0611armor?style=flat" alt="GitHub Profile"/>
+    <img src="https://img.shields.io/github/profile/shining0611armor?style=flat" alt="GitHub Profile"/>
   </span>
 </div>
 
