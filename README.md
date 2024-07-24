@@ -1,5 +1,5 @@
 
-<div align="left">
+<div align="right">
   <span style="margin-right: 10px;">
     <img src="https://komarev.com/ghpvc/?username=shining0611armor&label=Profile+views&color=blue&style=flat&abbreviated=0" alt="Profile views"/>
   </span>
@@ -10,6 +10,8 @@
     <img src="https://img.shields.io/github/stars/shining0611armor?style=flat" alt="GitHub User's stars"/>
   </span>
 </div>
+
+
 
 
 # Hi 👋 I'm Mehran
