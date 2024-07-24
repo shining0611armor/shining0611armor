@@ -1,3 +1,8 @@
+<p align="center"> 
+ 🆅🅸🆂🅸🆃🅾🆁 🅲🅾🆄🅽🆃<br>
+  <img src="https://profile-counter.glitch.me/oraclebrain/count.svg"/>
+
+
 # Hi 👋 I'm Mehran
  
 A curious Digital Electronic and Machine Learning Engineer!
