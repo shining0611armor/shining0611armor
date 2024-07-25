@@ -14,12 +14,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Game from GitHub Contribution Grid
-        uses: Platane/snk@master
+        uses: Platane/snk@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # These options are optional. By default, the workflow uses the repository's owner
-          #  github_user_name: ${{ github.repository_owner }}
-          #  github_user_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Commit and Push
         run: |
