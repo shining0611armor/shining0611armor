@@ -14,7 +14,7 @@
 
 
 
-# Hi 👋 I'm Mehran Tamjidi
+# Hi 👋 I'm Mehran 
  
 A curious Digital Electronic and Machine Learning Engineer!
  
