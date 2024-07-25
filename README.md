@@ -83,7 +83,7 @@ A curious Digital Electronic and Machine Learning Engineer!
 
 
 
-<img src="https://github.com/shining0611armor/shining0611armor/blob/main/dist/github-snake.svg" alt="GitHub Snake" width="800" height="400"/>
+<img src="https://github.com/shining0611armor/shining0611armor/blob/main/dist/github-snake.svg" alt="GitHub Snake" width="1000"/>
 
 
 
