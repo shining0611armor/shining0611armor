@@ -85,6 +85,10 @@ A curious Digital Electronic and Machine Learning Engineer!
  <img width="1000" src="./assets/github-snake.svg" alt="snake"/>
 </p>
 
+![GitHub Snake](https://github.com/shining0611armor/shining0611armor/blob/main/dist/github-snake.svg)
+![GitHub Snake Dark](https://github.com/shining0611armor/shining0611armor/blob/main/dist/github-snake-dark.svg)
+![GitHub Snake GIF](https://github.com/shining0611armor/shining0611armor/blob/main/dist/ocean.gif)
+
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Spiral%20Calendar.png"  width="30" />  GitHub Activity Graph 
 
