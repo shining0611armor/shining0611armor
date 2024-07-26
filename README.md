@@ -110,6 +110,9 @@ A curious Digital Electronic and Machine Learning Engineer!
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical)
 
+![Metrics](/github-metrics.svg) 
+
+
 ---
 
 Feel free to ask me about my fields of interest whenever you need!
