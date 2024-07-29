@@ -1,0 +1,1628 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="946" class="large">
+    <defs>
+        <style/>
+    </defs>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.large .largeable-flex-wrap{display:flex;flex-wrap:wrap}svg.large .largeable-width-half{width:50%}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}.gauge text,h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.gauge{stroke-linecap:round;fill:none}.achievement .gauge.info,.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement .gh{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style/>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
+            <section>
+                <h1 class="field">
+                    <img class="avatar" src="data:image/jpg;base64,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" width="20" height="20" />
+                    <span>El Amri Omar</span>
+                </h1>
+                <div class="row">
+                    <section>
+                        <div class="field ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
+                            </svg>
+                            Joined GitHub 7 years ago
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"/>
+                            </svg>
+                            Followed by 115 users
+                        </div>
+                    </section>
+                    <section>
+                        <div class="field calendar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
+                                <g>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M1 2.5A2.5 2.5 0 013.5 0h8.75a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 013.5 9h3.25a.75.75 0 010 1.5H3.5a1 1 0 100 2h5.75a.75.75 0 010 1.5H3.5A2.5 2.5 0 011 11.5v-9zm13.23 7.79a.75.75 0 001.06-1.06l-2.505-2.505a.75.75 0 00-1.06 0L9.22 9.229a.75.75 0 001.06 1.061l1.225-1.224v6.184a.75.75 0 001.5 0V9.066l1.224 1.224z"/>
+                            </svg>
+                            Contributed to 5 repositories
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section>
+                <h2 class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                    </svg>
+                    6 Languages
+                </h2>
+            </section>
+            <section class="column">
+                <h3 class="field">Most used languages</h3>
+                <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
+                    <mask id="languages-bar">
+                        <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
+                    </mask>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="475.9878616406049" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="475.9878616406049" y="0" width="380.48586517431136" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="856.4737268149163" y="0" width="43.32203429407598" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="899.7957611089922" y="0" width="19.448325381196636" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="919.2440864901889" y="0" width="0.40100562746639473" height="8" fill="#F05138"/>
+                    <rect mask="url(#languages-bar)" x="919.6450921176554" y="0" width="0.35490788234469983" height="8" fill="#427819"/>
+                </svg>
+                <div class="field center horizontal-wrap fill-width">
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#b07219" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Java
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#A97BFF" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Kotlin
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        JavaScript
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        HTML
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#F05138" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Swift
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#427819" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Makefile
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/>
+                    </svg>
+                    Contributions calendar
+                </h2>
+                <div class="row">
+                    <section>
+                    </section>
+                    <section>
+                        <h3 class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M7.75 14A1.75 1.75 0 016 12.25v-8.5C6 2.784 6.784 2 7.75 2h6.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0114.25 14h-6.5zm-.25-1.75c0 .138.112.25.25.25h6.5a.25.25 0 00.25-.25v-8.5a.25.25 0 00-.25-.25h-6.5a.25.25 0 00-.25.25v8.5zM4.9 3.508a.75.75 0 01-.274 1.025.25.25 0 00-.126.217v6.5a.25.25 0 00.126.217.75.75 0 01-.752 1.298A1.75 1.75 0 013 11.25v-6.5c0-.649.353-1.214.874-1.516a.75.75 0 011.025.274zM1.625 5.533a.75.75 0 10-.752-1.299A1.75 1.75 0 000 5.75v4.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217v-4.5a.25.25 0 01.126-.217z"/>
+                            </svg>
+                            Commits streaks
+                        </h3>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path d="M8.5.75a.75.75 0 00-1.5 0v5.19L4.391 3.33a.75.75 0 10-1.06 1.061L5.939 7H.75a.75.75 0 000 1.5h5.19l-2.61 2.609a.75.75 0 101.061 1.06L7 9.561v5.189a.75.75 0 001.5 0V9.56l2.609 2.61a.75.75 0 101.06-1.061L9.561 8.5h5.189a.75.75 0 000-1.5H9.56l2.61-2.609a.75.75 0 00-1.061-1.06L8.5 5.939V.75z"/>
+                            </svg>
+                            Best streak 5 days
+                        </div>
+                        <h3 class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                            </svg>
+                            Commits per day
+                        </h3>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path d="M7.823 1.677L4.927 4.573A.25.25 0 005.104 5H7.25v3.236a.75.75 0 101.5 0V5h2.146a.25.25 0 00.177-.427L8.177 1.677a.25.25 0 00-.354 0zM13.75 11a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zm-3.75.75a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5a.75.75 0 01-.75-.75zM7.75 11a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM4 11.75a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5a.75.75 0 01-.75-.75zM1.75 11a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5z"/>
+                            </svg>
+                            Highest in a day at 3
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
+                            </svg>
+                            Average per day at ~0.56
+                        </div>
+                    </section>
+                </div>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="margin-top: -130px;" viewBox="0,0 480,170">
+                    <filter id="brightness1">
+                        <feComponentTransfer>
+                            <feFuncR type="linear" slope="0.6"/>
+                            <feFuncG type="linear" slope="0.6"/>
+                            <feFuncB type="linear" slope="0.6"/>
+                        </feComponentTransfer>
+                    </filter>
+                    <filter id="brightness2">
+                        <feComponentTransfer>
+                            <feFuncR type="linear" slope="0.19999999999999996"/>
+                            <feFuncG type="linear" slope="0.19999999999999996"/>
+                            <feFuncB type="linear" slope="0.19999999999999996"/>
+                        </feComponentTransfer>
+                    </filter>
+                    <g transform="scale(4) translate(12, 0)">
+                        <g transform="translate(0, 0)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(1.7, 1)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(3.4, 2)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(5.1, 3)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 5)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,8 0,7 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,7 1.7,8 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(6.8, 4)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(8.5, 5)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(10.2, 6)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(11.9, 7)">
+                            <g transform="translate(0, 4)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 10)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(13.6, 8)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 5)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(15.299999999999999, 9)">
+                            <g transform="translate(0, 4)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(17, 10)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(18.7, 11)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(20.4, 12)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(22.099999999999998, 13)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 4)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(23.8, 14)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 7)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(25.5, 15)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(27.2, 16)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 7)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(28.9, 17)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(30.599999999999998, 18)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 6)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(32.3, 19)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 4)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(34, 20)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(35.699999999999996, 21)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 6)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(37.4, 22)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(39.1, 23)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 6)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(40.8, 24)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 7)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 8)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(42.5, 25)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-1.7, 5)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-3.4, 4)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6 0,5 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5 1.7,6 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 9)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4 0,3 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3 1.7,4 z"/>
+                            </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                        <g transform="translate(44.199999999999996, 26)">
+                            <g transform="translate(0, 6)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </section>
+            <section>
+                <h2 class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M3.217 6.962A3.75 3.75 0 010 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864a1.57 1.57 0 011.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 01-3.217 3.712 5.014 5.014 0 01-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 110 1.5H2.75a.75.75 0 010-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568a1.03 1.03 0 00.373-.227c.084-.085.109-.153.114-.204l.144-1.446a5.014 5.014 0 01-2.77-3.117zM3 2.5H1.75a.25.25 0 00-.25.25v.5c0 .98.626 1.813 1.5 2.122V2.5zm4.457 7.97l-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.764.764 0 00-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.763.763 0 00-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.052 5.052 0 01-1.087 0zM13 5.373V2.5h1.25a.25.25 0 01.25.25v.5A2.25 2.25 0 0113 5.372zM4.5 1.568c0-.037.03-.068.068-.068h6.864c.037 0 .068.03.068.068V5.5a3.5 3.5 0 11-7 0V1.568z"/>
+                    </svg>
+                    Achievements
+                </h2>
+                <div class="row">
+                    <section class="achievements detailed largeable-flex-wrap">
+                        <div class="achievement a largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="62.25462012320328 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
+                                            <path d="M46 44.557v1a2 2 0 01-2 2H2a2 2 0 01-2-2v-1" stroke="#FFD576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M.75 40.993l.701.561a2.323 2.323 0 002.903 0l1.675-1.34a3 3 0 013.748 0l1.282 1.026a3 3 0 003.71.03l1.4-1.085a3 3 0 013.75.061l1.103.913a3 3 0 003.787.031l1.22-.976a3 3 0 013.748 0l1.282 1.026a3 3 0 003.71.03l1.4-1.085a3 3 0 013.75.061l1.429 1.182a2.427 2.427 0 003.103-.008l.832-.695A2 2 0 0046 39.191v-1.634a2 2 0 00-2-2H2a2 2 0 00-2 2v1.875a2 2 0 00.75 1.561z" stroke="#B59151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M42 31.609v.948m-38 0v-.992m25.04-15.008H35a2 2 0 012 2v1m-28 0v-1a2 2 0 012-2h6.007" stroke="#FFD576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M22 8.557h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6a1 1 0 011-1z" stroke="#B59151" stroke-width="2" stroke-linejoin="round"/>
+                                            <path d="M4.7 10.557c.316 1.122.572 1.372 1.71 1.678-1.136.314-1.39.566-1.7 1.69-.317-1.121-.573-1.372-1.71-1.679 1.135-.313 1.389-.566 1.7-1.689zm35-8c.316 1.122.572 1.372 1.71 1.678-1.136.314-1.39.566-1.7 1.69-.317-1.121-.573-1.372-1.71-1.679 1.135-.313 1.389-.566 1.7-1.689z" stroke="#B59151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M23 5.557a2 2 0 002-2C25 2.452 24.433 0 22.273 0c-.463 0 .21 1.424-.502 1.979A2 2 0 0023 5.557z" stroke="#B59151" stroke-width="2"/>
+                                            <path d="M4.78 27.982l1.346 1.076a3 3 0 003.748 0l1.252-1.002a3 3 0 013.748 0l1.282 1.026a3 3 0 003.711.03l1.4-1.085a3 3 0 013.75.061l1.102.913a3 3 0 003.787.031l1.22-.976a3 3 0 013.748 0l1.281 1.025a3 3 0 003.712.029l1.358-1.053a2 2 0 00.775-1.58v-.97a1.95 1.95 0 00-1.95-1.95H5.942a1.912 1.912 0 00-1.912 1.912v.951a2 2 0 00.75 1.562z" stroke="#B59151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <circle stroke="#FFD576" cx="16.5" cy="2.057" r="1"/>
+                                            <circle stroke="#FFD576" cx="14.5" cy="12.057" r="1"/>
+                                            <circle stroke="#FFD576" cx="31.5" cy="9.057" r="1"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix">Super</span>
+                                    member
+                                </div>
+                                <div class="text">Registered 7 years ago</div>
+                            </div>
+                        </div>
+                        <div class="achievement b largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="77.5 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-linecap="round" stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <path d="M17.135 7.988l-3.303.669a2 2 0 00-1.586 2.223l4.708 35.392a1.498 1.498 0 01-1.162 1.66 1.523 1.523 0 01-1.775-1.01L4.951 19.497a2 2 0 011.215-2.507l2.946-1.072" stroke="#B2A8FF" stroke-linejoin="round"/>
+                                            <path d="M36.8 48H23a2 2 0 01-2-2V7a2 2 0 012-2h26a2 2 0 012 2v32.766" stroke="#7D6CFF"/>
+                                            <path d="M29 20.955l-3.399 3.399a.85.85 0 000 1.202l3.399 3.4M43.014 20.955l3.399 3.399a.85.85 0 010 1.202l-3.4 3.4" stroke="#7D6CFF" stroke-linejoin="round"/>
+                                            <path stroke="#7D6CFF" d="M38.526 18l-5.053 14.016"/>
+                                            <path d="M44 36a8 8 0 110 16 8 8 0 010-16z" stroke="#7D6CFF" stroke-linejoin="round"/>
+                                            <path d="M43.068 40.749l3.846 2.396a1 1 0 01-.006 1.7l-3.846 2.36a1 1 0 01-1.523-.853v-4.755a1 1 0 011.529-.848z" stroke="#7D6CFF" stroke-linejoin="round"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix">Great</span>
+                                    polyglot
+                                </div>
+                                <div class="text">Using 6 different programming languages</div>
+                            </div>
+                        </div>
+                        <div class="achievement b largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="46.5 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-linecap="round" stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <g stroke="#7D6CFF">
+                                                <path d="M20 24l-3.397 3.398a.85.85 0 000 1.203L20.002 32M37.015 24l3.399 3.398a.85.85 0 010 1.203L37.014 32" stroke-linejoin="round"/>
+                                                <path d="M31.029 21.044L25.976 35.06"/>
+                                            </g>
+                                            <path stroke="#B2A8FF" stroke-linejoin="round" d="M23.018 10h8.984M26 47h5M8 16h16m9 0h15.725M8 41h13"/>
+                                            <path d="M5.027 34.998c.673 2.157 1.726 4.396 2.81 6.02m43.38-19.095C50.7 19.921 49.866 17.796 48.79 16" stroke="#B2A8FF"/>
+                                            <path stroke="#7D6CFF" stroke-linejoin="round" d="M26 41h17"/>
+                                            <path d="M7.183 16C5.186 19.582 4 23.619 4 28M42.608 47.02c2.647-1.87 5.642-5.448 7.295-9.18C51.52 34.191 52.071 30.323 52 28" stroke="#7D6CFF"/>
+                                            <path stroke="#7D6CFF" stroke-linejoin="round" d="M7.226 16H28M13.343 47H21"/>
+                                            <path d="M13.337 47.01a24.364 24.364 0 006.19 3.45 24.527 24.527 0 007.217 1.505c2.145.108 4.672-.05 7.295-.738" stroke="#7D6CFF"/>
+                                            <path stroke="#7D6CFF" stroke-linejoin="round" d="M36 47h6.647M12 10h6M37 10h6.858"/>
+                                            <path d="M43.852 10c-4.003-3.667-9.984-6.054-16.047-6-2.367.021-4.658.347-6.81 1.045" stroke="#7D6CFF"/>
+                                            <path stroke="#B2A8FF" stroke-linejoin="round" d="M5.041 35h4.962M47 22h4.191"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix">Great</span>
+                                    developer
+                                    <span class="gh">ranked 1.78m out of 141m users</span>
+                                </div>
+                                <div class="text">Published 29 public repositories</div>
+                            </div>
+                        </div>
+                        <div class="achievement b largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="31 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <path d="M37.303 21.591a5.84 5.84 0 00-1.877-1.177 6.138 6.138 0 00-4.432 0 5.822 5.822 0 00-1.879 1.177L28 22.638l-1.115-1.047c-1.086-1.018-2.559-1.59-4.094-1.59-1.536 0-3.008.572-4.094 1.59-1.086 1.02-1.696 2.4-1.696 3.84 0 1.441.61 2.823 1.696 3.841l1.115 1.046L28 38l8.189-7.682 1.115-1.046a5.422 5.422 0 001.256-1.761 5.126 5.126 0 000-4.157 5.426 5.426 0 00-1.256-1.763z" stroke="#7D6CFF" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M15.967 42.705A18.922 18.922 0 0028 47a18.92 18.92 0 0011.076-3.56m-.032-30.902A18.914 18.914 0 0028 9c-4.09 0-7.876 1.292-10.976 3.49" stroke="#B2A8FF" stroke-linecap="round"/>
+                                            <g transform="translate(7 10)" stroke="#7D6CFF">
+                                                <path d="M6 0v7c0 2.21-1.343 3-3 3s-3-.79-3-3V0" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path stroke-linecap="round" d="M3 0v19.675"/>
+                                                <rect stroke-linejoin="round" x="1" y="20" width="4" height="16" rx="2"/>
+                                            </g>
+                                            <g transform="translate(43 10)" stroke="#7D6CFF">
+                                                <path stroke-linecap="round" d="M2 15.968v3.674"/>
+                                                <path d="M4 15.642H0L.014 4.045A4.05 4.05 0 014.028 0L4 15.642z" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <rect stroke-linejoin="round" y="19.968" width="4" height="16" rx="2"/>
+                                            </g>
+                                            <path d="M41.364 8.062A23.888 23.888 0 0028 4a23.89 23.89 0 00-11.95 3.182M4.75 22.021A24.045 24.045 0 004 28c0 1.723.182 3.404.527 5.024m10.195 14.971A23.888 23.888 0 0028 52c4.893 0 9.444-1.464 13.239-3.979m9-10.98A23.932 23.932 0 0052 28c0-2.792-.477-5.472-1.353-7.964" stroke="#B2A8FF" stroke-linecap="round"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix">Great</span>
+                                    forker
+                                </div>
+                                <div class="text">Forked 6 public repositories</div>
+                            </div>
+                        </div>
+                        <div class="achievement b largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="6.2 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path d="M35 31a7 7 0 1114 0 7 7 0 01-14 0zm12-13a3 3 0 116 0 3 3 0 01-6 0zM33 49a3 3 0 116 0 3 3 0 01-6 0zM4 15a3 3 0 116 0 3 3 0 01-6 0zm37-8.5a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zM10 14l4.029-.576M19.008 26.016L21 19M29.019 34.001l5.967-1.948M36.997 46.003l2.977-8.02M46.05 24.031L48 21M28.787 18.012l7.248 8.009" stroke="#B2A8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M43.62 29.004c-1.157 0-1.437.676-1.62 1.173-.19-.498-.494-1.167-1.629-1.167-.909 0-1.355.777-1.371 1.632-.022 1.145 1.309 2.365 3 3.358 1.669-.983 3-2.23 3-3.358 0-.89-.54-1.638-1.38-1.638z" fill="#7D6CFF"/>
+                                            <path stroke="#B2A8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M48.043 15.003L45 9"/>
+                                            <path d="M21 12a3 3 0 116 0 3 3 0 01-6 0zM27 12h3M18 12h3M21 43c-.267-1.727-1.973-3-4-3-2.08 0-3.787 1.318-4 3m4-9a3 3 0 100 6 3 3 0 000-6z" stroke="#7D6CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M17 30a9 9 0 110 18 9 9 0 110-18z" stroke="#7D6CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix">Great</span>
+                                    follower
+                                </div>
+                                <div class="text">Following 212 users</div>
+                            </div>
+                        </div>
+                        <div class="achievement c largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="117.61306532663316 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <path stroke="#2088FF" d="M28.017 5v3M36.006 7.013l-1.987 2.024M20.021 7.011l1.988 2.011M28.806 30.23c-2.206-3.88-5.25-2.234-5.25-2.234 1.007 2.24 1.688 3.72 2.742 8.724.957 4.551 3.785 7.409 7.687 7.293l5.028 6.003M29.03 34.057L29 20.007m4.012 9.004V17.005m4.006 11.99l-.003-9.353"/>
+                                            <path d="M18.993 50.038l4.045-5.993s1.03-.262 1.954-.984m-6.983.96c-4.474-.016-6.986-5.558-6.986-9.979 0-1.764-.439-4.997-1.997-8.004 0 0 3.268-1.24 5.747 3.6.904 1.768.458 5.267.642 5.388.185.121 1.336.554 2.637 2.01m4.955-18.92a976.92 976.92 0 010 5.91m-7.995-4.986l-.003 10.97M10.031 48.021l2.369-3.003" stroke="#79B8FF"/>
+                                            <path d="M45.996 47.026l-1.99-2.497-1.993-2.5s2.995-1.485 2.995-6.46V24.033" stroke="#2088FF"/>
+                                            <path d="M41 29v-6a2 2 0 114 0v2m-8-4v-4a2 2 0 114 0v7m-8-7v-2a2 2 0 114 0v2m-8 4v-2a2 2 0 114 0v2" stroke="#2088FF"/>
+                                            <path d="M23 20v-2a2 2 0 013.043-1.707M19 19v-4a2 2 0 114 0v3m-8 3v-2a2 2 0 114 0v10" stroke="#79B8FF"/>
+                                            <path d="M6.7 12c.316 1.122.572 1.372 1.71 1.678-1.136.314-1.39.566-1.7 1.69-.316-1.121-.572-1.372-1.71-1.678 1.135-.314 1.389-.567 1.7-1.69zm42 0c.316 1.122.572 1.372 1.71 1.678-1.136.314-1.39.566-1.7 1.69-.317-1.121-.573-1.372-1.71-1.679 1.135-.313 1.389-.566 1.7-1.689zM28.021 47.627c.317 1.122.573 1.372 1.71 1.678-1.135.314-1.389.566-1.699 1.69-.318-1.121-.573-1.372-1.71-1.679 1.134-.313 1.389-.566 1.699-1.689z" stroke="#2088FF"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Stargazer
+                                </div>
+                                <div class="text">Starred 152 repositories</div>
+                            </div>
+                        </div>
+                        <div class="achievement c largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="88.79396984924624 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g transform="translate(4 4)" stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <path d="M33.432 1.924A23.922 23.922 0 0024 0c-3.945 0-7.668.952-10.95 2.638m-9.86 9.398A23.89 23.89 0 000 24a23.9 23.9 0 002.274 10.21m3.45 5.347a23.992 23.992 0 0012.929 7.845m13.048-.664c4.43-1.5 8.28-4.258 11.123-7.848m3.16-5.245A23.918 23.918 0 0048 24c0-1.87-.214-3.691-.619-5.439M40.416 6.493a24.139 24.139 0 00-1.574-1.355" stroke="#79B8FF" stroke-linecap="round"/>
+                                            <path stroke="#79B8FF" d="M4.582 33.859l1.613-7.946"/>
+                                            <circle stroke="#79B8FF" cx="6.832" cy="23" r="3"/>
+                                            <path stroke="#2088FF" d="M17.444 39.854l4.75 3.275"/>
+                                            <path stroke="#79B8FF" stroke-linecap="round" d="M7.647 14.952l-.433 4.527"/>
+                                            <circle stroke="#2088FF" cx="15" cy="38" r="3"/>
+                                            <path stroke="#2088FF" d="M22.216 9.516l.455 4.342"/>
+                                            <path stroke="#79B8FF" stroke-linecap="round" d="M34.272 6.952l-2.828 5.25"/>
+                                            <path stroke="#2088FF" stroke-linecap="square" d="M11.873 7.235l6.424-.736"/>
+                                            <path stroke="#79B8FF" stroke-linecap="round" d="M28.811 5.445l3.718-.671"/>
+                                            <path stroke="#2088FF" d="M42.392 22.006l.456-5.763M34.349 24.426l4.374.447"/>
+                                            <path d="M20 28c.267-1.727 1.973-3 4-3 2.08 0 3.787 1.318 4 3m-4-9a3 3 0 110 6 3 3 0 010-6z" stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M24 14c5.523 0 10 4.477 10 10s-4.477 10-10 10-10-4.477-10-10 4.477-10 10-10z" stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <circle stroke="#79B8FF" cx="35.832" cy="4" r="3"/>
+                                            <circle stroke="#79B8FF" cx="44" cy="36" r="3"/>
+                                            <circle stroke="#79B8FF" cx="34.832" cy="37" r="3"/>
+                                            <circle stroke="#2088FF" cx="21.654" cy="6.437" r="3"/>
+                                            <path d="M25.083 48.102a3 3 0 100-6 3 3 0 000 6z" stroke="#2088FF"/>
+                                            <path d="M8.832 5a3 3 0 110 6 3 3 0 010-6z" stroke="#2088FF" stroke-linecap="round"/>
+                                            <circle stroke="#79B8FF" cx="4" cy="37" r="3"/>
+                                            <path d="M42.832 10a3 3 0 110 6 3 3 0 010-6z" stroke="#2088FF" stroke-linecap="round"/>
+                                            <path stroke="#79B8FF" stroke-linecap="round" d="M32.313 38.851l-1.786 1.661"/>
+                                            <circle stroke="#2088FF" cx="42" cy="25" r="3"/>
+                                            <path stroke="#2088FF" stroke-linecap="square" d="M18.228 32.388l-1.562 2.66"/>
+                                            <path stroke="#79B8FF" d="M37.831 36.739l2.951-.112"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Influencer
+                                    <span class="gh">ranked 96.5k out of 141m users</span>
+                                </div>
+                                <div class="text">Followed by 115 users</div>
+                            </div>
+                        </div>
+                        <div class="achievement c largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="15.656565656565656 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
+                                            <path d="M20.065 47.122c.44-.525.58-1.448.58-1.889 0-2.204-1.483-3.967-3.633-4.187.447-1.537.58-2.64.397-3.31-.25-.92-.745-1.646-1.409-2.235m-5.97-7.157c.371-.254.911-.748 1.62-1.48a8.662 8.662 0 001.432-2.366M47 22h-7c-1.538 0-2.749-.357-4-1h-5c-1.789.001-3-1.3-3-2.955 0-1.656 1.211-3.04 3-3.045h2c.027-1.129.513-2.17 1-3m3.082 32.004C34.545 43.028 34.02 40.569 34 39v-1h-1c-2.603-.318-5-2.913-5-5.997S30.397 26 33 26h9c2.384 0 4.326 1.024 5.27 3" stroke="#79B8FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                            <g transform="translate(36)" stroke="#2088FF" stroke-width="2">
+                                                <path fill="#2088FF" stroke-linecap="round" stroke-linejoin="round" d="M5.395 5.352L6.009 4l.598 1.348L8 5.408l-1.067 1.12.425 1.47-1.356-.908-1.35.91.404-1.469L4 5.41z"/>
+                                                <circle cx="6" cy="6" r="6"/>
+                                            </g>
+                                            <g transform="translate(0 31)" stroke="#2088FF" stroke-width="2">
+                                                <circle cx="6" cy="6" r="6"/>
+                                                <g stroke-linecap="round">
+                                                    <path d="M6 4v4M4 6h4"/>
+                                                </g>
+                                            </g>
+                                            <circle stroke="#2088FF" stroke-width="2" cx="10.5" cy="10.5" r="10.5"/>
+                                            <g stroke-linecap="round">
+                                                <path d="M32.01 1.37A23.96 23.96 0 0024 0c-.999 0-1.983.061-2.95.18M.32 20.072a24.21 24.21 0 00.015 7.948M12.42 45.025A23.892 23.892 0 0024 48c13.255 0 24-10.745 24-24 0-2.811-.483-5.51-1.371-8.016" stroke="#79B8FF" stroke-width="2"/>
+                                                <path stroke="#2088FF" stroke-width="2" d="M8.999 7.151v5.865"/>
+                                                <path d="M9 3a2 2 0 110 4 2 2 0 010-4zm0 10.8a2 2 0 11-.001 4 2 2 0 01.001-4z" stroke="#2088FF" stroke-width="1.8"/>
+                                                <path d="M9.622 11.838c.138-.007.989.119 1.595-.05.607-.169 1.584-.539 1.829-1.337" stroke="#2088FF" stroke-width="2"/>
+                                                <path d="M14.8 7.202a2 2 0 110 4 2 2 0 010-4z" stroke="#2088FF" stroke-width="1.8"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Inspirer
+                                    <span class="gh">ranked 1.04m out of 210m repositories</span>
+                                </div>
+                                <div class="text">Maintaining or created a repository which has been forked 11 times</div>
+                            </div>
+                        </div>
+                        <div class="achievement c largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="5.275275275275276 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
+                                            <path d="M39 15h.96l4.038 3-.02-3H45a2 2 0 002-2V3a2 2 0 00-2-2H31a2 2 0 00-2 2v4.035" stroke="#79B8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path stroke="#2088FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M36 5.014l-3 3 3 3M40 5.014l3 3-3 3"/>
+                                            <path d="M6 37a1 1 0 110 2 1 1 0 010-2m7 0a1 1 0 110 2 1 1 0 010-2m-2.448 1a1 1 0 11-2 0 1 1 0 012 0z" fill="#2088FF"/>
+                                            <path d="M1.724 15.05A23.934 23.934 0 000 24c0 .686.029 1.366.085 2.037m19.92 21.632c1.3.218 2.634.331 3.995.331a23.92 23.92 0 009.036-1.76m13.207-13.21A23.932 23.932 0 0048 24c0-1.363-.114-2.7-.332-4M25.064.022a23.932 23.932 0 00-10.073 1.725" stroke="#79B8FF" stroke-width="2" stroke-linecap="round"/>
+                                            <path d="M19 42.062V43a2 2 0 01-2 2H9.04l-4.038 3 .02-3H3a2 2 0 01-2-2V33a2 2 0 012-2h4.045" stroke="#79B8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M6 0a6 6 0 110 12A6 6 0 016 0z" stroke="#2088FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path stroke="#2088FF" stroke-width="2" stroke-linecap="round" d="M6 3v6M3 6h6"/>
+                                            <path d="M42 36a6 6 0 110 12 6 6 0 010-12z" stroke="#2088FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path stroke="#2088FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M44.338 40.663l-3.336 3.331-1.692-1.686M31 31c-.716-2.865-3.578-5-7-5-3.423 0-6.287 2.14-7 5"/>
+                                            <path d="M24 16a5 5 0 110 10 5 5 0 010-10z" stroke="#2088FF" stroke-width="2" stroke-linecap="round"/>
+                                            <circle stroke="#2088FF" stroke-width="2" cx="24" cy="24" r="14"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Maintainer
+                                    <span class="gh">ranked 815k out of 210m repositories</span>
+                                </div>
+                                <div class="text">Maintaining a repository with 35 stars</div>
+                            </div>
+                        </div>
+                        <div class="achievement c largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0.7788944723618091 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <path stroke="#79B8FF" stroke-linecap="round" stroke-linejoin="round" d="M26.022 5.014h6M26.012 53.005h6M27.003 47.003h12M44.01 20.005h5M19.01 11.003h12"/>
+                                            <path stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round" d="M38.005 11.008h6M41 14.013v-6M14.007 47.003h6M17.002 50.004v-6"/>
+                                            <path d="M29.015 5.01l-5.003 5.992 5.003-5.992zM33.015 47.01l-5.003 5.992 5.003-5.992z" stroke="#79B8FF"/>
+                                            <path stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round" d="M8.01 19.002h6"/>
+                                            <path stroke="#79B8FF" stroke-linecap="round" stroke-linejoin="round" d="M47.011 29h6"/>
+                                            <path stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round" d="M44.012 39.003h6"/>
+                                            <g stroke="#79B8FF">
+                                                <path d="M5.36 29c4.353 0 6.4 4.472 6.4 8"/>
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.99 37.995h-5M10.989 29h-6"/>
+                                            </g>
+                                            <path d="M24.503 22c1.109 0 2.007.895 2.007 2 0 1.104-.898 2-2.007 2a2.004 2.004 0 01-2.008-2c0-1.105.9-2 2.008-2zM24.5 32a2 2 0 110 4 2 2 0 010-4zm9.5 0a2 2 0 110 4 2 2 0 010-4z" stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path stroke="#2088FF" d="M24.5 26.004v6.001"/>
+                                            <path d="M31.076 23.988l1.027-.023a1.998 1.998 0 011.932 2.01L34 31" stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path stroke="#2088FF" stroke-linecap="round" stroke-linejoin="round" d="M31.588 26.222l-2.194-2.046 2.046-2.194"/>
+                                            <path d="M29.023 43c7.732 0 14-6.268 14-14s-6.268-14-14-14-14 6.268-14 14 6.268 14 14 14z" stroke="#2088FF"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Contributor
+                                </div>
+                                <div class="text">Opened 2 pull requests</div>
+                            </div>
+                        </div>
+                        <div class="achievement c largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-linecap="round" stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <g stroke="#79B8FF" stroke-linejoin="round">
+                                                <path d="M30 51H16.543v-2.998h-4v2.976l-5.537.016a2 2 0 01-2.006-2v-8.032a2 2 0 01.75-1.562l9.261-7.406 5.984 5.143m29.992 3.864v10h-6v-3h-5v3h-6m-.987-33c.133-1.116.793-2.106 1.978-2.968.44-.32 5.776-3.664 16.01-10.032v36"/>
+                                                <path d="M19 34.994v-8.982m16 0V49a2 2 0 01-2 2h-8.987l.011-6.957"/>
+                                            </g>
+                                            <path stroke="#79B8FF" d="M40 38h5M40 34h5"/>
+                                            <path stroke="#2088FF" d="M25 30h5M25 34h5M25 26h5"/>
+                                            <path d="M35.012 22.003H9.855a4.843 4.843 0 010-9.686h1.479c1.473-4.268 4.277-6.674 8.41-7.219 6.493-.856 9.767 4.27 10.396 5.9.734-.83 2.137-2.208 4.194-1.964a4.394 4.394 0 011.685.533" stroke="#2088FF" stroke-linejoin="round"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Worker
+                                </div>
+                                <div class="text">Joined 1 organization</div>
+                            </div>
+                        </div>
+                        <div class="achievement secret largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="155 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g transform="translate(4 5)" stroke-width="2" fill="none" fill-rule="evenodd">
+                                            <g stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="#FF48BD" d="M26.478 22l.696 2.087 3.478.696v2.782l-3.478 1.392-.696 1.39 1.392 3.48-1.392 1.39L23 33.827l-1.391.695L20.217 38h-2.782l-1.392-3.478-1.39-.696-3.48 1.391-1.39-1.39 1.39-3.48-.695-1.39L7 27.565v-2.782l3.478-1.392.696-1.391-1.391-3.478 1.39-1.392 3.48 1.392 1.39-.696 1.392-3.478h2.782l1.392 3.478 1.391.696 3.478-1.392 1.392 1.392z"/>
+                                                <path stroke="#FF92D8" d="M24.779 12.899l-1.475-2.212 1.475-1.475 2.95 1.475 1.474-.738.737-2.934h2.212l.737 2.934 1.475.738 2.95-1.475 1.474 1.475-1.475 2.949.738 1.475 2.949.737v2.212l-2.95.737-.737 1.475 1.475 2.949-1.475 1.475-2.949-1.475"/>
+                                            </g>
+                                            <path stroke="#FF48BD" stroke-linecap="round" d="M5.932 5.546l7.082 6.931"/>
+                                            <path stroke="#FF92D8" stroke-linecap="round" d="M32.959 31.99l8.728 8.532"/>
+                                            <circle stroke="#FF92D8" cx="44" cy="43" r="3"/>
+                                            <circle stroke="#FF48BD" cx="13" cy="2" r="2"/>
+                                            <circle stroke="#FF92D8" cx="35" cy="44" r="2"/>
+                                            <circle stroke="#FF92D8" cx="3" cy="12" r="2"/>
+                                            <circle stroke="#FF48BD" cx="45" cy="34" r="2"/>
+                                            <path d="M3.832 0a3 3 0 110 6 3 3 0 010-6zM8.04 10.613l2.1-.613M10.334 9.758l1.914-5.669" stroke="#FF48BD" stroke-linecap="round"/>
+                                            <path stroke="#FF92D8" stroke-linecap="round" d="M40.026 35.91l-2.025.591M35.695 41.965l1.843-5.326"/>
+                                            <path d="M16 2h23.038a6 6 0 016 6v24.033" stroke="#FF48BD" stroke-linecap="round"/>
+                                            <path d="M32.038 44.033H9a6 6 0 01-6-6V14" stroke="#FF92D8" stroke-linecap="round"/>
+                                            <path d="M17.533 22.154l5.113 3.22a1 1 0 01-.006 1.697l-5.113 3.17a1 1 0 01-1.527-.85V23a1 1 0 011.533-.846zm11.58-7.134v-.504a1 1 0 011.53-.85l3.845 2.397a1 1 0 01-.006 1.701l-3.846 2.358" stroke="#FF48BD" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Automator
+                                </div>
+                                <div class="text">Use GitHub Actions to automate profile updates</div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
+    </foreignObject>
+</svg>
