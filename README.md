@@ -99,7 +99,6 @@ A curious Digital Electronic and Machine Learning Engineer!
 
 ![3D Profile](profile-3d-contrib/profile-night-rainbow.svg)
 
-![Metrics](https://github.com/shining0611armor/shining0611armor/blob/main/github-metrics.svg)
 
 ---
 
@@ -113,9 +112,12 @@ A curious Digital Electronic and Machine Learning Engineer!
 ![trophy](https://github-profile-trophy.vercel.app/?username=shining0611armor&theme=radical)
 
 ---
+## summary
 
 
+![Metrics](https://github.com/shining0611armor/shining0611armor/blob/main/github-metrics.svg)
 
+---
 
 
 
