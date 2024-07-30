@@ -114,7 +114,7 @@ A curious Digital Electronic and Machine Learning Engineer!
 ---
 
 
-![Metrics](/github-metrics.svg) 
+
 
 
 
