@@ -32,7 +32,6 @@ A curious Digital Electronic and Machine Learning Engineer!
  
 ## Connect with Me
 [![LinkedIn](https://img.shields.io/badge/MehranTamjidi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehran-tamjidi-34293b229/)
-[![Instagram](https://img.shields.io/badge/shining0611armor-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shining0611armor/)
 
 ---
 
@@ -41,7 +40,7 @@ A curious Digital Electronic and Machine Learning Engineer!
 
 # 💻 Tech Stack:
 
-[Resume](my link)
+[Resume](link)
 
 <!-- my-skils -->
 | Property                                        | Data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
