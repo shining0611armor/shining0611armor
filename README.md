@@ -16,7 +16,7 @@
 
 # Hi 👋 I'm Mehran 
 
-I'm a curious and passionate engineer with a focus on Machine Learning and Digital Electronics.
+A curious and passionate engineer with a focus on Machine Learning and Digital Electronics.
 
 Welcome to my GitHub! Here you'll find a collection of my public repositories, most of which are created with a strong emphasis on education and knowledge sharing.
 
