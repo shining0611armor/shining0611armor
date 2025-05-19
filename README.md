@@ -15,9 +15,11 @@
  
 
 # Hi 👋 I'm Mehran 
- 
-A curious Digital Electronic and Machine Learning Engineer!
- 
+
+I'm a curious and passionate engineer with a focus on **Machine Learning** and **Digital Electronics**.
+
+Welcome to my GitHub! Here you'll find a collection of my public repositories, most of which are created with a strong emphasis on **education and knowledge sharing**.
+
 👨‍💻 I’m currently working specifically on 3D Computer Vision and Machine Learning.
 
 🌱 My skills include Deep Learning, Machine Learning, 3D Computer Vision, Electronics and Digital Electronics, Microcontrollers, Signal Processing, FPGA, and all things about Mathematics.
